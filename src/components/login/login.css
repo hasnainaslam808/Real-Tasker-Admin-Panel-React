@@ -1,0 +1,63 @@
+.background {
+  background-image: url(./../../assets/background.png);
+  height: 100vh;
+  width: 100%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.content-div {
+  Width: 305px;
+  Height: 400px;
+  background-color: rgb(255, 255, 255);
+  padding: 25px;
+  gap: 30px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#logo {
+  text-align: center;
+}
+
+.content-div img {
+  width: 137px;
+  height: 100px;
+}
+
+label{
+  color: rgba(159, 162, 180, 1);
+  font-size: 12px;
+  font: bold;
+ margin-bottom: 20px;
+}
+
+input {
+
+  border: 1px solid rgba(240, 241, 247, 1);
+  height: 42px;
+  width: 290px;
+margin-top: 5px;
+}
+
+input::placeholder {
+  color: rgba(75, 80, 109, 1);
+  font-size: 14px;
+  opacity: 40%;
+  font-weight: 400;
+
+}
+
+button {
+  background-color: rgba(51, 123, 108, 1);
+  Width: 290px;
+  Height: 48px;
+  border-radius: 8px;
+  border: none;
+  color: white;
+  margin-top: 20px;
+}
