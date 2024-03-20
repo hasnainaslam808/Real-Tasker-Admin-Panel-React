@@ -1,5 +1,6 @@
 import React from 'react'
-import Content from './content';
+// import Content from './content';
+import Building from "./../buildings/index"
 import "../Dashboard/style.css";
 import grp from "../../../assets/grp.png";
 import img1 from "../../../assets/vec.png";
@@ -71,9 +72,14 @@ const dashboard = () => {
                             </div>
                         </div>
 
-                      <Content/>
+{/* components */}
 
 
+                      {/* <Content/> */}
+<Building/>
+
+
+{/* components */}
                     </div>
                 </div>
             </div>
