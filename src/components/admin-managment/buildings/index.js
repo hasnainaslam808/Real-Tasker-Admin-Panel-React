@@ -9,7 +9,7 @@ import building2 from "../../../assets/building2.png"
 import building3 from "../../../assets/building3.png"
 import building4 from "../../../assets/building4.png"
 import group from "../../../assets/Group1.png"
-const index = () => {
+const Buildings = () => {
     const buildings=[
         {building:building1},
         {building:building2},
@@ -60,4 +60,4 @@ const index = () => {
     )
 }
 
-export default index
+export default Buildings

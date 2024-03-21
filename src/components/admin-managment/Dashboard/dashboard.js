@@ -11,7 +11,7 @@ import img4 from "../../../assets/contacts.png";
 import img5 from "../../../assets/Vector.png";
 import bell from "../../../assets/new.png";
 
-const dashboard = () => {
+const Dashboard = () => {
     const menu = [
         { icon: img1, text: "Dashboard" },
         { icon: img2, text: "Administration" },
@@ -92,4 +92,4 @@ const dashboard = () => {
     )
 }
 
-export default dashboard
+export default Dashboard

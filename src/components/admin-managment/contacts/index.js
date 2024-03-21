@@ -1,7 +1,7 @@
 import React from 'react'
 import "./style.css"
 import arrow from "../../../assets/Left Arrow.png"
-const contacts = () => {
+const Contacts = () => {
   return (
     <>
       <div className='main-div'>
@@ -27,8 +27,8 @@ const contacts = () => {
           </div>
           <div class="col-md-5">
             <label for="validationCustom04" class="form-label">Gender</label><br />
-            <input class="form-check-input mt-2" type="radio" name="gender" id="male" value="male" />
-            <label class="form-check-label mt-1 male" for="male">Male</label>
+            <input class="form-check-input mt-2 mr-2" type="radio" name="gender" id="male" value="male" />
+            <label class="form-check-label mt-1 male " for="male">Male</label>
             <input class="form-check-input mt-2" type="radio" name="gender" id="female" value="female" />
             <label class="form-check-label mt-1 female" for="female">Female</label>
           </div>
@@ -57,4 +57,4 @@ const contacts = () => {
   )
 }
 
-export default contacts
+export default Contacts

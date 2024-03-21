@@ -6,7 +6,7 @@ import pro2 from "../../../assets/profil2.png";
 import pro3 from "../../../assets/profil3.png";
 import Ok from "../../../assets/Ok.png";
 import group from "../../../assets/group.png";
-const content = () => {
+const Content = () => {
 
     const data = [
         { profile: pro1, admin: "Admin 1",email:"wakoman@gmail.com" ,phone:"042-6664772",ok:Ok,grp:group},
@@ -79,4 +79,4 @@ const content = () => {
   )
 }
 
-export default content
+export default Content

@@ -1,6 +1,6 @@
 import React from 'react'
 import Content from ".././Dashboard/content"
-const index = () => {
+const Administration = () => {
   return (
    <>
    <Content/>
@@ -9,4 +9,4 @@ const index = () => {
   )
 }
 
-export default index
+export default Administration
