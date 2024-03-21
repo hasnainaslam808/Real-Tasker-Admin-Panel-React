@@ -1,13 +1,20 @@
 
 .card-div{
-    margin: 50px 20px 20px 20px;
+    margin: 50px 18px 20px 0;
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    flex-wrap: wrap;
 }
 
 .cards{
     width: 265px;
     background-color: white;
+    border: 1px solid rgba(223, 224, 235, 1);
+    border-radius: 8px;
 }
 .cards h6{
+    margin-top: 5px;
     text-align: center;
     color: rgba(54, 55, 64, 1);
 }
@@ -31,6 +38,7 @@
     width: 100%;
 }
 .btn button{
+    width: 14rem;
     background-color:   rgba(54, 55, 64, 1);
     border-radius: 8px;
     border: none;
@@ -41,6 +49,7 @@
 }
 .plus-images{
     display: flex;
+    justify-content: center;
     gap: 12px;
 }
 .back-images{
@@ -61,4 +70,48 @@
     font-size: 16px; 
     font-weight: bold;
     margin-top: 15px;
+  }
+  .blue-back{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 44px; 
+    height: 44px;
+    border-radius: 50%;
+  
+    background-image: url("../../../assets/Ellipse 4.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .blue-back p{
+    color: white;
+    font-size: 26px; 
+    font-weight: bold;
+    margin-top: 10px;
+  }
+  .group{
+    text-align: center;
+    margin-top: 20px;
+  }
+  .group img{
+    padding: 10px 20px;
+    border: 0.5px solid rgba(159, 162, 180, 1);
+    border-radius: 12px;
+    width: 230px;
+  }
+  .phone{
+    display: flex;
+    justify-content: space-between;
+
+    margin: 0 5px;
+  }
+  .phone .name{
+    font-size: 15px;
+    font-weight: 600;
+  }
+  .phone .number{
+    font-size: 12px;
+    color:  rgba(74, 196, 248, 1);
+    font-weight: 600;
+    
   }
